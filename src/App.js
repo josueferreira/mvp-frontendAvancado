@@ -11,9 +11,11 @@ export default function App() {
     <BrowserRouter>
       <Header />
       <Routes>
+       
         <Route path="/" element={<Home />} />
         <Route path="/detalhes/:id" element={<ClinicDetails />} />
         <Route path="/cadastro" element={<ClinicRegister />} />
+       
       </Routes>
       <Footer />
     </BrowserRouter>

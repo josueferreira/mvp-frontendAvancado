@@ -1,21 +1,22 @@
 
-
 export default function ItemClinic ({ clinic }){
 
     return ( 
 
         <div className="clinic-item">
-        <img src={clinic.logo} alt={clinic.nome} className="clinic-logo" />
+        <div className="clinic-logo-background" style={{ backgroundImage: `url(${clinic.logo})` }}></div>
         <div className="clinic-info">
           <h3>{clinic.nome}</h3>
           <p>{clinic.descricao}</p>
           <div className="clinic-services">
-            {clinic.servicos.map(servico => <span key={servico}>{servico}</span>)}
+            <ul>
+            {clinic.servicos.map(servico => <li key={servico}>{servico}</li>)}
+            </ul>
           </div>
           <div className="clinic-actions">
             <button onClick={() => window.location.href = `/detalhes/${clinic.id}`}>+</button>
-            <button onClick={() => window.location.href = `tel:${clinic.telefone}`}>Telefone</button>
-            <button onClick={() => window.location.href = `https://wa.me/${clinic.whatsapp}`}>Chat</button>
+            <button onClick={() => window.location.href = `tel:${clinic.telefone}`}><img src="/icons/telefone.png" alt="Telefone" width={16} height={16}/></button>
+            <button onClick={() => window.location.href = `https://wa.me/${clinic.whatsapp}`}><img src="/icons/conversation.png" alt="Chat" width={16} height={16}/></button>
           </div>
         </div>
       </div>
