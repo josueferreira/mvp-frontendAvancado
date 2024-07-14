@@ -33,34 +33,35 @@ Certifique-se de ter o Node.js e o npm instalados em seu sistema. Você pode bai
 
 ### Home Page
 
-    Na Home Page, os usuários podem:
+Na Home Page, os usuários podem:
 
-    Descrever o problema do pet ou serviço que precisa. 
+Descrever o problema do pet ou serviço que precisa. 
 
-        Problemas cadastrados: Câncer, Picada de cobra, Fratura na pata, Lesão, Parto, Dermatite, Convulsão,
-        Queda de Pêlo, Problema Intestinal, Problema Neurológico.
+Problemas cadastrados: Câncer, Picada de cobra, Fratura na pata, Lesão, Parto, Dermatite, Convulsão,
+Queda de Pêlo, Problema Intestinal, Problema Neurológico.
 
-        Serviços cadastrados: Oncologia, Quimioterapia, Vacinas, Consultas, Emergência 24 horas, Cardiologia,
-        Gastroenterologia, Neurologia, Vacinas, Consultas, Cirurgia, Laboratório, Ortopedia.
+Serviços cadastrados: Oncologia, Quimioterapia, Vacinas, Consultas, Emergência 24 horas, Cardiologia,
+Gastroenterologia, Neurologia, Vacinas, Consultas, Cirurgia, Laboratório, Ortopedia.
 
-    Selecionar o estado e o município.
+Selecionar o estado e o município.
 
-    Clicar no botão "Pesquisar" para ver uma lista de clínicas que podem ajudar.
+Clicar no botão "Pesquisar" para ver uma lista de clínicas que podem ajudar.
 
 ### Detalhes da Clínica
 
-    Na página de detalhes da clínica, os usuários podem:
+Na página de detalhes da clínica, os usuários podem:
 
-    Ver o logotipo da clínica e seu nome.
-    Visualizar o mapa da localização.
-    Ver a descrição completa da clínica e os serviços oferecidos.
-    Contatar a clínica via telefone ou WhatsApp.
+Ver o logotipo da clínica e seu nome.
+Visualizar o mapa da localização.
+Ver a descrição completa da clínica e os serviços oferecidos.
+Contatar a clínica via telefone ou WhatsApp.
 
 ### Cadastro de Clínica
 
-    Na página de cadastro de clínica, os usuários podem:
+Na página de cadastro de clínica, os usuários podem:
 
-    Inserir informações sobre a clínica, como nome, telefone, WhatsApp, estado, município, link do mapa, descrição, logotipo, serviços e casos. Adicionar serviços e casos dinâmicos com botões " + ".
+Inserir informações sobre a clínica, como nome, telefone, WhatsApp, estado, município, link do mapa, descrição, 
+logotipo, serviços e casos. Adicionar serviços e casos dinâmicos com botões " + ".
 
-    Clicar no botão "Cadastrar" para enviar as informações para o servidor quando estiver conectado a base de dados.
+Clicar no botão "Cadastrar" para enviar as informações para o servidor quando estiver conectado a base de dados.
     
