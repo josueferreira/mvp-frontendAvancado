@@ -5,7 +5,7 @@
 PetSafe Clinic Finder é um aplicativo web que permite aos usuários encontrar clínicas veterinárias para pets (cães e gatos). O aplicativo permite buscar clínicas com base em problemas específicos, estados e municípios, e visualizar detalhes sobre as clínicas, incluindo serviços oferecidos, localização no mapa e opções de contato.
 
 ## Layout
-Projeto foi desenvolvido com base no layout criado no Figma que pode ser acessado [aqui] (https://www.figma.com/proto/kw4ZGlXr59Gta7Kj9xubVj/MVP-PETSAFE?node-id=1-2&t=WcvgfokQUVdOoPg5-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2).
+Projeto foi desenvolvido com base no layout criado no Figma que pode ser acessado [aqui](https://www.figma.com/proto/kw4ZGlXr59Gta7Kj9xubVj/MVP-PETSAFE?node-id=1-2&t=WcvgfokQUVdOoPg5-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2).
 
 ## Instalação
 
@@ -37,9 +37,11 @@ Certifique-se de ter o Node.js e o npm instalados em seu sistema. Você pode bai
 
     Descrever o problema do pet ou serviço que precisa. 
 
-        Problemas cadastrados: Câncer, Picada de cobra, Fratura na pata, Lesão, Parto, Dermatite, Convulsão, Queda de Pêlo, Problema Intestinal, Problema Neurológico.
+        Problemas cadastrados: Câncer, Picada de cobra, Fratura na pata, Lesão, Parto, Dermatite, Convulsão,
+        Queda de Pêlo, Problema Intestinal, Problema Neurológico.
 
-        Serviços cadastrados: Oncologia, Quimioterapia, Vacinas, Consultas, Emergência 24 horas, Cardiologia, Gastroenterologia, Neurologia, Vacinas, Consultas, Cirurgia, Laboratório, Ortopedia.
+        Serviços cadastrados: Oncologia, Quimioterapia, Vacinas, Consultas, Emergência 24 horas, Cardiologia,
+        Gastroenterologia, Neurologia, Vacinas, Consultas, Cirurgia, Laboratório, Ortopedia.
 
     Selecionar o estado e o município.
 
