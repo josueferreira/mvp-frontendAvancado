@@ -1,29 +1,25 @@
-import { useParams } from "react-router-dom";
-import axios from "axios";
-import { useState, useEffect } from "react";
+import { useLocation } from "react-router-dom";
+import { useEffect, useState } from "react";
 
 export default function ClinicDetails() {
-  const { id } = useParams();
-  const [clinic, setClinic] = useState(null);
+  const { state } = useLocation();
+  const [clinic, setClinic] = useState(state?.clinic || null);
 
   useEffect(() => {
-    axios.get("/clinicas.json").then((response) => {
-      const clinicDetails = response.data.find(
-        (clinica) => clinica.id === parseInt(id)
-      );
-      setClinic(clinicDetails);
-    });
-  }, [id]);
+    if (state.clinicDetails) {
+      setClinic(state.clinicDetails);
+    }
+  }, [clinic, state.clinicDetails]);
 
-  if (!clinic) return <div>Carregando...</div>;
+  if (!clinic) return <div className="container">Carregando...</div>;
 
   return (
     <div className="container">
-      <div className='topo-details'>
-        <img src= {`/${clinic.logo}`} alt="Logo" />
+      <div className="topo-details">
+        <img src={`/${clinic.logo}`} alt="Logo" />
         <h2>{clinic.nome}</h2>
       </div>
-   
+
       <div className="linha-cabecalho"></div>
       <iframe
         src={clinic.linkMapa}
@@ -48,7 +44,6 @@ export default function ClinicDetails() {
         </div>
         <div>
           <div className="clinic-actions">
-           
             <button
               onClick={() => (window.location.href = `tel:${clinic.telefone}`)}
             >
@@ -60,9 +55,7 @@ export default function ClinicDetails() {
               />
             </button>
             <button
-              onClick={() =>
-                (window.location.href = `https://wa.me/${clinic.whatsapp}`)
-              }
+              onClick={() => (window.location.href = `https://wa.me/${clinic.whatsapp}`)}
             >
               <img
                 src="/icons/conversation.png"

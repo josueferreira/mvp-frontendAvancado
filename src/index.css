@@ -5,7 +5,7 @@ body {
   padding: 0;
   background-color: #ffffff;
 }
-
+a {text-decoration: none;}
 header,
 footer {
   background-color: #c6ffcc;
@@ -142,6 +142,8 @@ span {
 .clinic-services ul {
   list-style: none;
   display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 10px;
   padding-left: 0;
 }
@@ -158,51 +160,6 @@ span {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-}
-
-.clinic-services span {
-  display: inline-block;
-  background-color: #005b7a;
-  color: white;
-  padding: 5px 10px;
-  margin: 5px 5px 5px 0;
-  border-radius: 5px;
-}
-.clinic-actions {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-.clinic-actions button {
-  margin: 10px 10px 0 0;
-  width: 50px;
-  height: 50px;
-  background-color: #005b7a;
-  color: white;
-  border: none;
-  border-radius: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.clinic-actions button:hover {
-  background-color: #055069;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
-.section-details {
-  display: flex;
-  gap: 30px;
-  margin-top: 20px;
-}
-
-.section-details .clinic-actions {
-  flex-direction: column;
-}
-.clinic-details {
-  background-color: #c6ffcc;
-  padding: 20px;
 }
 
 .linha-cabecalho {
@@ -284,59 +241,6 @@ span {
   width: 100%;
   height: 50px;
 }
-.selectLocal {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-}
-.dynamic-container{
-  margin-bottom: 10px;
-}
-.dynamic-container ul{
-  margin-top: 0;
-  margin-bottom: 20px;
-  display: flex;
-  gap: 7px 9px;
-  flex-wrap: wrap;
-  list-style: none;
-}
-.dynamic-container ul{
-  margin-block-start: 0em;
-  padding-left: 0;
-}
-.dynamic-container ul li:before {
-  content: "✓";
-  padding-right: 5px;
-  color: #005b7a;
-  font-size: 17px;
-  font-weight: 700;
- 
-}
-.dynamic-input {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.dynamic-input label {
-  width: 85%;
-}
-.dynamic-input button {
-  max-width: 10%;
-  border-radius: 100%;
-  margin-top: 10px;
-  height: 0;
-  padding: 0;
-}
-
-.formLocal {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-}
-.formLocal label {
-  width: 50%;
-}
 
 /* Listagem Page */
 .listagem-container {
@@ -382,6 +286,50 @@ span {
   border-radius: 5px;
 }
 
+.clinic-services span {
+  display: inline-block;
+  background-color: #005b7a;
+  color: white;
+  padding: 5px 10px;
+  margin: 5px 5px 5px 0;
+  border-radius: 5px;
+}
+.clinic-actions {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.clinic-actions button {
+  margin: 10px 10px 0 0;
+  width: 50px;
+  height: 50px;
+  background-color: #005b7a;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clinic-actions button:hover {
+  background-color: #055069;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.section-details {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.section-details .clinic-actions {
+  flex-direction: column;
+}
+.clinic-details {
+  background-color: #c6ffcc;
+  padding: 20px 30px;
+}
 /* Cadastro de Clínica */
 .content-register {
   width: 600px;
@@ -414,6 +362,60 @@ span {
 .content-register textarea {
   height: 100px;
 }
+.selectLocal {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.dynamic-container{
+  margin-bottom: 10px;
+}
+.dynamic-container ul{
+  margin-top: 0;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 7px 9px;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.dynamic-container ul{
+  margin-block-start: 0em;
+  padding-left: 0;
+}
+.dynamic-container ul li:before {
+  content: "✓";
+  padding-right: 5px;
+  color: #005b7a;
+  font-size: 17px;
+  font-weight: 700;
+ 
+}
+.dynamic-input {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.dynamic-input label {
+  width: 85%;
+}
+.dynamic-input button {
+  max-width: 50px;
+  border-radius: 100%;
+  margin-top: 10px;
+  height: 50px;
+  padding: 0;
+}
+
+.formLocal {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.formLocal label {
+  width: 50%;
+}
+
 @media (max-width: 750px) {
   footer {
     flex-direction: column;
@@ -436,5 +438,8 @@ span {
   }
   .content-register {
     width: 70%;
+  }
+  .dynamic-input button {
+    max-width: 15%;
   }
 }

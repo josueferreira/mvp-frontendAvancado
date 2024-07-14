@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 export default function ItemClinic ({ clinic }){
 
@@ -14,7 +15,13 @@ export default function ItemClinic ({ clinic }){
             </ul>
           </div>
           <div className="clinic-actions">
-            <button onClick={() => window.location.href = `/detalhes/${clinic.id}`}>+</button>
+          <Link
+            to={ `/detalhes/${clinic.id}`}
+            state= { { clinicDetails: clinic } }
+            
+          >
+            <button>+</button>
+          </Link>
             <button onClick={() => window.location.href = `tel:${clinic.telefone}`}><img src="/icons/telefone.png" alt="Telefone" width={16} height={16}/></button>
             <button onClick={() => window.location.href = `https://wa.me/${clinic.whatsapp}`}><img src="/icons/conversation.png" alt="Chat" width={16} height={16}/></button>
           </div>

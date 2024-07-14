@@ -7,10 +7,10 @@
     "estado": "RJ",
     "municipio": "Copacabana",
     "linkMapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.4371224009433!2d-43.19188318886027!3d-22.970948079123225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd5449d31a779%3A0x76ce27bdb44879d6!2sMr.%20Dog%20-%20Veterin%C3%A1ria%20e%20Pet%20Shop!5e0!3m2!1spt-PT!2sbr!4v1720895948717!5m2!1spt-PT!2sbr",
-    "servicos": ["Quimioterapia", "Vacinas", "Consultas", "Emergência 24 horas"],
+    "servicos": ["Oncologia", "Quimioterapia", "Vacinas", "Consultas", "Emergência 24 horas"],
     "descricao": "A Mr Dog é referência como centro especializado em diagnóstico e tratamento de cães e gatos. Surgiu da paixão dos veterinários Rinaldo e Severiana por animais de pequeno porte ainda na época da faculdade. Criada em 1992, a clínica hoje está equipada com que há de melhor em tecnologia para os cuidados de pequenos animais de estimação e funciona 24 horas por dia.\n\nA vantagem de você trazer seu Pet em um centro especializado é que aqui na Mr Dog Veterinária você encontra toda infraestrutura e profissionais qualificados para o atendimento daquele que você ama. A Mr Dog disponibiliza consultórios completos e climatizados, Raios-X digital de última geração, ultrassonografia com doppler, Endoscopia, área exclusiva para atendimento oncológico com capela de fluxo laminar para manipulação de fármacos (segurança para você e seu Pet), internação humanizada e climatizada com locais específicos para cães e gatos e doenças infectocontagiosas e ala de recuperação totalmente separadas , amplas e com presença de um médico veterinário exclusivo para acompanhamento dos internos.\n\nNosso centro cirúrgico é equipado com o que há de mais moderno em termos de aparelho de anestesia, foco cirúrgico, bisturi elétrico e monitores multiparâmetros de última geração.\n\nColocamos também a disposição um completo centro de unidade intensiva com respirador artificial, concentrador de oxigênio e multiparâmetros.\n\nAlém disso, você conta com uma ampla recepção, climatizada e aconchegante. Nossa loja é repleta de produtos, medicamentos e acessórios para seu pet.\n\nVocê encontra ainda um salão de estética climatizado e individualizado, onde seu pet tem um atendimento exclusivo e pessoal do início ao fim, com câmera e exibição em TV em tempo real caso queira acompanhar.",
     "logo": "445978764_756462013041322_9093471513249943374_n.jpg",
-    "problema": ["Câncer", "Picada de cobra", "Comeu Planta venenosa"]
+    "problema": ["Câncer", "Picada de cobra", "Fratura na pata", "Lesão", "Parto", "Dermatite" ]
   },
 
   {
@@ -21,9 +21,9 @@
     "estado": "RJ",
     "municipio": "Copacabana",
     "linkMapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8652.453690429817!2d-43.19555754813421!3d-22.983343753746368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd553e6b35759%3A0x7d2b1f5906c3672d!2sPetsa%C3%BAde%20Copacabana!5e0!3m2!1spt-PT!2sbr!4v1720896067478!5m2!1spt-PT!2sbr",
-    "servicos": ["Radiografia", "Vacinas", "Consultas", "Cirurgia", "Laboratório", "Ortopedia"],
+    "servicos": ["Cardiologia", "Gastroenterologia", "Neurologia","Vacinas", "Consultas", "Cirurgia", "Laboratório", "Ortopedia"],
     "descricao": "A Clínica Veterinária Petsaúde nasceu em 2013 com a clara intenção de cuidar, prevenir e tratar da saúde dos animais de estimação. Somos apaixonados por dedicar o nosso tempo em prol da qualidade de vida do seu melhor amigo.\n\nNosso compromisso é buscar sempre o aperfeiçoamento dos nossos serviços, e desenvolver uma medicina cada vez melhor. Contamos com uma estrutura capaz de atender às principais necessidades de nossos clientes, com total conforto e segurança. O que garante a excelência de nosso atendimento. \n\nContamos com 21 especialidades e uma equipe de médicos veterinários especializados em atender o seu pet com o carinho e a atenção que ele merece. Assim, cada vez ganhamos motivos para que os tutores nos confiarem a saúde dos seus pets tão queridos.\n\n Hoje, já consolidada no mercado veterinário, a Petsaúde alcança mais um degrau em sua jornada, mantendo seu foco nos atendimentos, diagnósticos e tratamentos veterinários, e na boa qualidade, essencial na prestação de seus serviços.",
     "logo": "petsaude.jpg",
-    "problema": ["Câncer", "Emergência 24 horas"]
+    "problema": ["Convulsão", "Queda de Pêlo", "Problema Intestinal", "Problema Neurológico"]
   }
  ]
